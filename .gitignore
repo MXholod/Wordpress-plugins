@@ -1,0 +1,39 @@
+﻿# Exclude everything
+/*
+# Except '.gitignore' file itself
+!.gitignore
+# Except 'wp-content' folder 
+!wp-content
+
+# Exclude everything in 'wp-content' folder
+wp-content/*
+
+# PLUGINS
+# Except 'plugins' folder 
+!wp-content/plugins
+# Exclude everything in 'plugins' folder
+wp-content/plugins/*
+# Except 'my-custom-plugin' folder
+# !wp-content/plugins/my-custom-plugin
+
+# THEMES
+# Except 'themes' folder 
+!wp-content/themes
+# Exclude everything in 'themes' folder
+wp-content/themes/*
+# Except 'my-custom-theme' folder
+# !wp-content/themes/my-custom-theme
+
+# Ignore all logs
+*.log
+
+# Dotenv files
+.env
+.env.*
+!.env.example
+
+
+
+
+
+
