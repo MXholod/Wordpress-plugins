@@ -14,7 +14,7 @@ wp-content/*
 # Exclude everything in 'plugins' folder
 wp-content/plugins/*
 # Except 'my-custom-plugin' folder
-!wp-content/plugins/mx-word-count-plugin
+!wp-content/plugins/mx-custom-block-post-plugin
 
 # THEMES
 # Except 'themes' folder 
